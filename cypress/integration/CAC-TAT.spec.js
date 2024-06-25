@@ -31,7 +31,7 @@ describe('Central de Atendimento ao Cliente - TAT', () => {
       .type('testando o campo de área de texto,testando o campo de área de texto,testando o campo de área de texto,testando o campo de área de texto,testando o campo de área de texto,testando o campo de área de texto,testando o campo de área de texto,testando o campo de área de texto,', { delay: 0})
       .should('have.value', 'testando o campo de área de texto,testando o campo de área de texto,testando o campo de área de texto,testando o campo de área de texto,testando o campo de área de texto,testando o campo de área de texto,testando o campo de área de texto,testando o campo de área de texto,');
     
-    cy.get('button[type="submit"]')
+    cy.contains('button', 'Enviar')
       .click()
     cy.get('.success')
       .should('be.visible');
@@ -53,7 +53,7 @@ describe('Central de Atendimento ao Cliente - TAT', () => {
     cy.get('#open-text-area')
       .type('Teste');
 
-    cy.get('button[type="submit"]')
+    cy.contains('button', 'Enviar')
       .click();
 
     cy.get('.error')
@@ -87,7 +87,7 @@ describe('Central de Atendimento ao Cliente - TAT', () => {
       .type('testando o campo de área de texto')
       .should('have.value', 'testando o campo de área de texto');
 
-    cy.get('button[type="submit"]')
+    cy.contains('button', 'Enviar')
       .click()
     cy.get('.error')
       .should('be.visible')
@@ -117,7 +117,7 @@ describe('Central de Atendimento ao Cliente - TAT', () => {
   });
 
   it('exibe mensagem de erro ao submeter o formulário sem preencher os campos obrigatórios', () => {
-  cy.get('button[type="submit"]')
+  cy.contains('button', 'Enviar')
     .click()
   cy.get('.error')
     .should('be.visible')
@@ -125,6 +125,6 @@ describe('Central de Atendimento ao Cliente - TAT', () => {
 
   it('envia o formuário com sucesso usando um comando customizado', () => {
     cy.enviaFormulario();
-  })
+  });
 
 })
