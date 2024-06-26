@@ -125,6 +125,7 @@ describe('Central de Atendimento ao Cliente - TAT', () => {
 
   it('envia o formuário com sucesso usando um comando customizado', () => {
     cy.enviaFormulario();
+    cy.get('.success').should('be.visible');
   });
 
   it('seleciona um produto (YouTube) por seu texto', () => {
