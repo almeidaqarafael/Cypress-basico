@@ -2,11 +2,12 @@
 
 👋 Seja bem-vindo(a)!
 
-É muito bom tê-lo(a) aqui. Tenho certeza que você vai adorar este curso. ❤️
+Realizado o curso de Cypress Básisco com o intuito de conhecimento sobre a ferramenta que é líder do mercado para testes de ponta a ponta (E2E) em aplicações web e móveis. Através de uma abordagem prática e abrangente, dominar as habilidades essenciais para criar testes robustos, confiáveis e eficientes, elevando meu perfil profissional e se destacando no mercado de trabalho.
+Automatizar rotinas de testes que hoje são realizadas de forma manual e criando mais confiabilidade ao sistema. 
 
-## O que você vai aprender
+## O que aprendi com o curso?
 
-Durante o curso de testes automatizados com Cypress (básico), você vai aprender:
+Durante o curso de testes automatizados com Cypress (básico), foi abordado:
 
 - Como configurar um projeto Cypress do zero
 - Como visitar páginas locais e remotas
@@ -20,10 +21,6 @@ Durante o curso de testes automatizados com Cypress (básico), você vai aprende
 - Como executar os testes em um _pipeline_ de integração contínua sempre que mudanças ocorrerem no código da aplicação (ou dos testes)
 - Como criar uma documentação mínima para seu projeto de testes automatizados
 
-## Vamos começar?
-
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
-
 ___
 
-Este é mais um curso da [**Escola Talking About Testing**](https://udemy.com/user/walmyr).
+Curso realizado através da [**Escola Talking About Testing**](https://udemy.com/user/walmyr).
